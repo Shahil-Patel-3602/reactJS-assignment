@@ -1,0 +1,107 @@
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    background-color: #FBFCFD;
+}
+
+.heading-line{
+    width: 85vw;
+    height: 100px;
+}
+.heading-line h1{
+    font-size: 40px;
+}
+
+.metaData{
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-metaData{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 45%;
+    font-size: 16px;
+}
+
+.right-metaData{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.last-updated{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 16px;
+}
+
+.last-updated img{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.buildOptions{
+    width: 85vw;
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
+.buildOption{
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.buildOption:last-child {
+    margin-right: 0;
+}
+
+.hostingProcess{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 12px;
+    font-size: 15px;
+}
+
+.Offers{
+    width: 85vw;
+    min-height: 100vh; 
+    align-items: center;
+    padding-top: 12px;
+}
+
+.right-metaData img{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.advertisement img{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}

@@ -1,0 +1,144 @@
+.deals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+.heading{
+    width: 100%;
+    min-height: 35px;
+}
+
+.heading p{
+    font-size: 30px;
+    padding: 5px;
+}
+
+.deal-details{
+    min-width: 80vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deal-details .deals{
+    min-height: 350px;
+    min-width: 350px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.dealImage{
+    width: 280px;
+    height: 220px;
+    object-fit: cover;
+    padding: 30px;
+}
+.dealImage{
+    width: 270px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.dealContent{
+    width: 100%;
+    padding: 15px;
+}
+
+.dealOffers{
+    display: flex;
+    justify-content: left;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.deal-offer-1, .deal-offer-2{
+    flex: 1;
+    background-color: #F2F4F7;
+    border-radius: 7px;
+    margin: 30px;
+    margin-top: 45px;
+    padding: 8px;
+    font-size: 14px;
+    color: #074786;
+}
+
+.deal-offer-1{
+    margin-right: 2px;
+}
+
+.dealDescription{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dealDesc-1, .dealDesc-2, .dealButton{
+    text-align: center;
+}
+
+.dealButton button{
+    width: 200px;
+    height: 40px;
+    background-color: #1B88F4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.dealDesc-1 b{
+    font-size: 25px;
+}
+
+.dealDesc-2{
+    margin-top: 20px;
+    width: 90%; 
+}
+
+.dealDesc-2 p{
+    font-size: 20px;
+    text-align: left;
+}
+
+.ratesDeal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    padding: 3px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.ratesDeal span{
+    padding: 10px;
+    width: 70px;
+}
+
+.dealRate{
+    font-size: 20px;
+    min-width: 30px;
+}
+
+.original-dealRate{
+    font-size: 14px;
+}
+
+.discount{
+    font-size: 14px;
+    color: red;
+    margin-right: 40px;
+}

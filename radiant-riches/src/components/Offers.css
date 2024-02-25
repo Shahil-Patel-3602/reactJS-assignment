@@ -1,0 +1,197 @@
+.offer-1, .offer-2, .offer-3, .offer-4{
+    padding: 20px;
+    margin: 20px;
+    background-color: #FBFCFD;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.builder-image-left{
+    width: 150px;
+    min-height: 155px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-text{
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 650px;
+    min-height: 155px;
+}
+
+
+.mainHighlights b{
+    font-size: 18px;
+    font-weight: bold;
+    width: 650px;
+    min-height: 55px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.firstText{
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.highlightText{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 45px;
+}
+
+.showMore p{
+    font-size: 13px;
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(62, 62, 238);
+    cursor: pointer;
+}
+
+.ratingBox{
+    color: #8fbbe7;
+    width: 110px;
+    min-height: 155px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+.score{
+    font-size: 28px;
+    text-align: center;
+    color: #074786;
+    padding: 3px;
+}
+
+.exceptional{
+    font-size: 15px;
+    text-align: center;
+    color: #074786;
+    padding: 3px;
+}
+
+.stars{
+    font-size: 17px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.ratingBox .rating{
+    font-size: 20px;
+    font-weight: bold;
+    width: 110px;
+    min-height: 72px;
+}
+
+.ratingBox .views{
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    min-height: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.views button{
+    font-size: 18px;
+    min-width: 210px;
+    min-height: 45px;
+    background-color: #1B88F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.firstText button{
+    font-size: 13px;
+    width: 70px;
+    min-height: 25px;
+    background-color: #F2F4F7;
+    color: #074786;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.highlightText-special{
+    background-color: rgb(255, 227, 251);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 15px;
+    width: 535px;
+}
+
+.randomNums{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.randomNums button{
+    font-size: 16px;
+    width: 50px;
+    height: 30px;
+    background-color: #F2F4F7;
+    color: #1B88F4;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.randomNums h3{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.loveIt{
+    display: flex;
+    flex-direction: column;
+    min-height: 30px;
+    margin-bottom: 30px;
+}
+
+.loveIt .reasons{
+    font-size: 15px;
+    margin: 0;
+    height: 35px;
+    display: flex;
+}
+
+.reasons img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 18px;
+}
